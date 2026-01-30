@@ -9,27 +9,21 @@ body {
   color: #e8e8e8;
 }
 
-.header-content {
-  display: flex;
-  justify-content: flex-end; /* This pushes everything to the far right */
-  padding-right: 50px;       /* Adds a small buffer so it's not touching the edge */
-}
-
-/* Cayman uses .page-header for the blue gradient header */
+/* ===== CAYMAN HEADER ===== */
 .page-header {
   display: flex;
   align-items: center;
   gap: 22px;
-
-  /* keep Cayman padding, but nudge content right a bit */
-  padding-left: 40px;
-
-  /* optional: slightly reduce vertical padding if header feels tall */
-  /* padding-top: 1.8rem;
-  padding-bottom: 1.8rem; */
 }
 
-/* Profile photo in header */
+/* Shift ONLY the header content, not the background */
+.page-header .container-lg,
+.page-header .container {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+
+/* Profile photo inside header */
 .page-header::before {
   content: "";
   background-image: url("/profile.jpg");
@@ -39,40 +33,55 @@ body {
   height: 115px;
   border-radius: 12px;
   flex-shrink: 0;
-
-  /* subtle border to look clean on gradient */
   border: 1px solid rgba(255,255,255,0.18);
 }
 
-/* Wrap header text nicely */
+/* Header text */
 .project-name,
 .project-tagline {
-  text-align: left;            /* Cayman defaults to centered */
-  margin: 0;                   /* remove extra margins */
+  text-align: left;
+  margin: 0;
 }
 
-/* Header title */
 .project-name {
   font-size: 2rem;
   line-height: 1.1;
   color: #ffffff;
 }
 
-/* Header subtitle */
 .project-tagline {
   margin-top: 6px;
   font-size: 1.05rem;
   color: rgba(255,255,255,0.92);
 }
 
-/* ===== LINKS BELOW HEADER (black background) ===== */
+/* ===== ICON LINKS (below header, on black) ===== */
+.icons {
+  margin: 18px 0 8px 0;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+
+.icons a img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.95;
+  transition: opacity 0.15s ease;
+  filter: brightness(0) invert(1);
+}
+
+.icons a:hover img {
+  opacity: 1;
+}
+
+/* ===== META LINKS ===== */
 .links {
-  margin-top: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 18px;
   font-size: 0.95rem;
 }
 
-/* Cayman uses .main-content for the page body container */
+/* Page width */
 .main-content {
   max-width: 900px;
   margin: 0 auto;
@@ -91,31 +100,15 @@ a:hover {
   .page-header {
     flex-direction: column;
     align-items: flex-start;
-    padding-left: 24px;
   }
 
   .page-header::before {
     width: 90px;
     height: 90px;
   }
-}
 
-/* ===== HEADER ICON LINKS ===== */
-.page-header .icons {
-  margin-top: 14px;
-  display: flex;
-  gap: 14px;
-}
-
-.page-header .icons a img {
-  width: 22px;
-  height: 22px;
-  opacity: 0.95;
-  transition: opacity 0.15s ease;
-  filter: brightness(0) invert(1);
-}
-
-.page-header .icons a:hover img {
-  opacity: 1;
+  .icons {
+    margin-top: 12px;
+  }
 }
 
