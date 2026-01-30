@@ -8,21 +8,22 @@ title: Ana Ferariu
 
 # Ana Ferariu
 
-PhD Student | Machine Learning, Statistics & Health Research  
-Drexel University
+PhD Researcher in Applied Cognitive and Brain Sciences
+*Advisor: Fengqing (Zoe) Zhang, PhD*
 
 📍 Philadelphia, PA  
 📧 af682@drexel.edu  
-🔗 [GitHub](https://github.com/anaferariu) · [LinkedIn](https://www.linkedin.com/in/ana-ferariu/)
+🔗 [GitHub](https://github.com/anaferariu) · [LinkedIn](https://www.linkedin.com/in/ana-ferariu/) · [Google Scholar](https://scholar.google.com/citations?user=_qgON9sAAAAJ&hl=en) 
 
 <div style="clear: both;"></div>
 
-## About
-I am a PhD student at Drexel University working at the intersection of machine learning, statistics, and biomedical and behavioral research. My work focuses on modeling heterogeneity in health outcomes, identifying subgroups with distinct risk or treatment response profiles, and developing interpretable predictive models for complex, high-dimensional and longitudinal data.
+## About Me
+I am a PhD student researcher at Drexel University working at the intersection of statistical methods and machine learning, with applications in clinical and developmental populations. I previously completed a MS in Statistics at Lehigh University and a BS in Mathematics at Drexel University. During my undergraduate studies, I was also a member of Drexel’s Division I women’s basketball team and represented Romania on the Olympic women’s basketball team.
 
-I primarily work in **R** and **Python**, with experience in tree-based models, regularized regression, ensemble learning, and model interpretability methods.
+My research interests center on longitudinal modeling, latent class analysis, and predictive modeling, with a particular focus on using machine learning and deep learning approaches to characterize substance use trajectories across adolescent neurodevelopment. I have also worked on projects applying subgroup identification methods in randomized controlled trials of behavioral weight-loss interventions.
 
----
+In the industry setting, I have experience transforming unstructured clinical text into actionable insights for downstream analysis, which has given me exposure to working on data-driven products from early design through deployment.
+
 
 ## Education
 * **Drexel University**, PhD in *Applied Cognitive and Brain Sciences*, 2022–Present  
@@ -32,34 +33,15 @@ I primarily work in **R** and **Python**, with experience in tree-based models, 
 
 ## Work Experience
 
-### Quantitative Psychology and Statistics Lab — Drexel University
-*September 2022 – Present | Supervisor: Fengqing (Zoe) Zhang, PhD*
-* Lead quantitative analyst on ABCD neuroimaging and behavioral datasets (over 10,000 participants), integrating
-multimodal MRI, behavioral, and clinical variables.
-* Applied advanced machine learning methods (e.g., neural nets, interpretable models, ensemble learning) to model brain
-network structure and predict early substance use trajectories over time.
-* Designed and implemented statistical models including latent class analysis and multilevel modeling to uncover
-developmental patterns and unobserved subgroups.
-* Developed and validated explainable AI pipelines for predicting early alcohol use trajectories from multimodal
-neuroimaging features in the ABCD dataset.
-* Collaborated with interdisciplinary teams of statisticians, neuroscientists, and clinicians to translate machine learning
-findings into developmental neuroscience insights.
-* Led subgroup identification analyses in a behavioral weight-loss trial, using qualitative interaction modeling to uncover
-participant characteristics associated with differential response to mindfulness- and acceptance-based components.
-
 ### Proscia, Inc. — AI and Data Science Intern
-*June 2025 – October 2025 | Supervisors: Corey Chivers, PhD & Ajay Basavanhally, PhD*
-* Contributed to ML/NLP methods that transformed unstructured clinical text into structured, queryable data for a production healthcare analytics platform.
-* Identified gaps in product workflows, framed them as research problems, and developed statistically rigorous solutions adopted in real-world systems.
-* Translated advanced modeling into deployed capabilities by building reproducible prototypes and collaborating with engineers to operationalize methods.
-* Developed scalable analytics pipelines that extract medical insights from thousands of records daily.
+*Summer 2025 | Supervisors: Corey Chivers, PhD & Ajay Basavanhally, PhD*
 
+At Proscia, I contributed to the development of applied machine learning and natural language processing methods for transforming unstructured pathology and clinical text into structured, queryable patient-level data within a production healthcare analytics platform [Proscia's Aperture](https://proscia.com/aperture/). Beyond model development, I played a role in shaping core modeling decisions by identifying gaps in existing product workflows, reframing them as concrete research problems, and designing statistically principled solutions that were adopted in practice. My work emphasized the full pipeline from idea to deployment, including building reproducible prototypes, validating model behavior, documenting failure modes, and collaborating closely with engineers to operationalize methods under real-world constraints. These contributions continue to support scalable analytics pipelines that extract clinically meaningful insights from large collections of medical records on a daily basis.
 
 ### Division of Biostatistics and Bioinformatics — Jefferson University
 *June 2024 – August 2024 | Supervisor: Inna Chervoneva, PhD*
-* Analyzed high-dimensional imaging data to identify biomarkers for lung cancer prognosis.
-* Evaluated machine learning vs. classical statistical methods for survival analysis.
-* Attended Protocol Review Meetings for clinical trials of oncologic pharmaceuticals.
+
+At the Division of Biostatistics and Bioinformatics at Thomas Jefferson University, I worked on the analysis of high-dimensional imaging data to identify prognostic biomarkers for lung cancer. My work involved comparing machine learning approaches with classical statistical methods for survival analysis, including the use of functional regression to model complex imaging-derived features. I also participated in protocol review meetings for oncologic clinical trials, which provided exposure to the design, oversight, and regulatory considerations involved in translational cancer research.
 
 ## Publications
 
