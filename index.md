@@ -4,7 +4,7 @@ title: Ana Ferariu
 
 
 ---
-<img src="profile.jpg" alt="Ana Ferariu" width="160" style="border-radius: 50%; margin-bottom: 20px;">
+<img src="profile.jpg" alt="Ana Ferariu" style="width:250px; float:left; border-radius:10px; margin-right:20px; margin-bottom:20px;">
 
 # Ana Ferariu
 
@@ -15,7 +15,7 @@ Drexel University
 📧 af682@drexel.edu  
 🔗 [GitHub](https://github.com/anaferariu) · [LinkedIn](https://www.linkedin.com/in/ana-ferariu/)
 
----
+<div style="clear: both;"></div>
 
 ## About
 I am a PhD student at Drexel University working at the intersection of machine learning, statistics, and biomedical and behavioral research. My work focuses on modeling heterogeneity in health outcomes, identifying subgroups with distinct risk or treatment response profiles, and developing interpretable predictive models for complex, high-dimensional and longitudinal data.
@@ -25,19 +25,13 @@ I primarily work in **R** and **Python**, with experience in tree-based models, 
 ---
 
 ## Education
-**Drexel University**  
-PhD, *Applied Cognitive and Brain Sciences*, 2022–Present  
+* **Drexel University**, PhD in *Applied Cognitive and Brain Sciences*, 2022–Present  
+* **Drexel University**, MS in *Psychology*, 2022–2024  
+* **Lehigh University**, MS in *Statistics*, 2020–2022  
+* **Drexel University**, BS in *Mathematics*, 2016–2020
 
-**Drexel University**  
-MS, *Psychology*, 2022-2024
+## Publications
 
-**Lehigh University**
-MS, *Statistics*, 2020-2022
-
-**Drexel University**
-BS, *Mathematics*, 2016-2020
-
----
 
 ## Research Interests
 - Heterogeneity in treatment response and health trajectories  
