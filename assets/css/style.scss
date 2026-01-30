@@ -27,9 +27,9 @@ body {
 .header-container {
   display: flex;
   flex-direction: column;   /* Keeps items stacked vertically */
-  align-items: center;      /* Centers items horizontally */
+  align-items: flex-end;    /* Moves items to the right */
   justify-content: center;
-  text-align: center;       /* Centers the name and title text */
+  text-align: right;        /* Right-aligns the name and title text */
   padding: 40px 0;
 }
 
@@ -41,7 +41,7 @@ body {
 }
 .profile-pic {
   border-radius: 50%;
-  width: 150px;   /* Adjust to your liking */
+  width: 180px;   /* Adjust to your liking */
   margin-bottom: 20px;
 }
 .header-container h1 {
@@ -51,7 +51,7 @@ body {
 }
 
 .header-container h3 {
-  margin: 10px 0 0 0;
+  margin: 5px 0 0 0;
   font-weight: 300;
   opacity: 0.8;
   color: #ffffff;
