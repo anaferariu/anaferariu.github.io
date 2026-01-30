@@ -105,10 +105,10 @@ a:hover {
 @media (min-width: 721px) {
   .page-header {
     display: grid;
-    grid-template-columns: 200px 1fr; /* Gives the photo more room on desktop */
+    grid-template-columns: 200px max-content; /* Gives the photo more room on desktop */
     gap: 30px;                        /* Space between photo and text */
     align-items: center;              /* Vertically centers text with photo */
-    padding: 3rem 4rem;
+    padding: 3rem 0;
   }
 
   .page-header::before {
