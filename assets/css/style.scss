@@ -26,10 +26,10 @@ body {
 /* Target the new container in index.md */
 .header-container {
   display: flex;
-  flex-direction: column;   /* Stacks items vertically */
+  flex-direction: column;   /* Keeps items stacked vertically */
   align-items: center;      /* Centers items horizontally */
   justify-content: center;
-  text-align: center;
+  text-align: center;       /* Centers the name and title text */
   padding: 40px 0;
 }
 
