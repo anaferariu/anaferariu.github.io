@@ -4,23 +4,6 @@ title: Ana Ferariu
 
 ---
 
-<div class="icons">
-  <a href="mailto:af682@drexel.edu">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/email.svg" alt="Email">
-  </a>
-  <a href="https://github.com/anaferariu">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub">
-  </a>
-  <a href="https://www.linkedin.com/in/ana-ferariu/">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
-  </a>
-  <a href="https://scholar.google.com/citations?user=_qgON9sAAAAJ&hl=en">
-    <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/googlescholar.svg" alt="Google Scholar">
-  </a>
-</div>
-
-<p style="margin-top: -10px; font-style: italic;">Advisor: Fengqing (Zoe) Zhang, PhD</p>
-
 ## About Me
 I am a PhD student researcher at Drexel University working at the intersection of statistical methods and machine learning, with applications in clinical and developmental populations. I previously completed a MS in Statistics at Lehigh University and a BS in Mathematics at Drexel University. During my undergraduate studies, I was also a member of Drexel’s Division I women’s basketball team and represented Romania on the Olympic women’s basketball team.
 
