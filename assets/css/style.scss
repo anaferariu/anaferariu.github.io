@@ -18,7 +18,7 @@ body {
 /* Use grid so photo sits left and text sits right, without breaking Cayman */
 .page-header {
   display: grid;
-  grid-template-columns: 115px 1fr;
+  grid-template-columns: 180px 1fr;
   grid-template-rows: auto auto;
   column-gap: 22px;
   align-items: center;
@@ -41,8 +41,8 @@ body {
   background-size: cover;
   background-position: center;
 
-  width: 115px;
-  height: 115px;
+  width: 180px;
+  height: 180px;
   border-radius: 12px;
   border: 1px solid rgba(255,255,255,0.18);
 }
@@ -129,5 +129,9 @@ a:hover {
     width: 90px;
     height: 90px;
   }
+
 }
 
+.project-name, .project-tagline, .icons {
+  text-align: center; /* Centers the text and icons next to the photo */
+}
