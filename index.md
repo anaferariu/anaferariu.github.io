@@ -3,6 +3,11 @@ layout: default
 title: Ana Ferariu
 
 ---
+<div class="header-container">
+  <img src="profile.jpg" alt="Ana Ferariu" class="profile-pic">
+  <h1>Ana Ferariu</h1>
+  <h3>PhD Researcher in Applied Cognitive and Brain Sciences</h3>
+</div>
 
 <div class="icons">
   <a href="mailto:af682@drexel.edu" aria-label="Email">
