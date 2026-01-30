@@ -17,6 +17,9 @@ title: Ana Ferariu
   <a href="https://scholar.google.com/citations?user=_qgON9sAAAAJ&hl=en" aria-label="Google Scholar">
     <img src="/assets/icons/scholar.svg" alt="Google Scholar">
   </a>
+  <a href="https://en.wikipedia.org/wiki/Ana_Ferariu" aria-label="Wikipedia">
+    <img src="/assets/icons/wikipedia.svg" alt="Wikipedia">
+  </a>
 </div>
 
 
