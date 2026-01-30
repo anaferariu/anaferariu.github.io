@@ -33,15 +33,17 @@ body {
   padding: 40px 0;
 }
 
-.profile-pic {
-  width: 180px;             /* Your requested larger size */
-  height: 180px;
-  border-radius: 50%;       /* Makes it a circle */
-  object-fit: cover;        /* Prevents stretching */
-  margin-bottom: 20px;      /* Space between photo and name */
-  border: 3px solid #fff;   /* Optional: adds a nice white border */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  margin-top: 50px;
 }
-
+.profile-pic {
+  border-radius: 50%;
+  width: 150px;   /* Adjust to your liking */
+  margin-bottom: 20px;
+}
 .header-container h1 {
   margin: 0;
   font-size: 2.5rem;
