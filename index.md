@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Ana Ferariu
+<img src="profile.jpg" alt="Ana Ferariu" width="160" style="border-radius: 50%; margin-bottom: 20px;">
+
 ---
 
 # Ana Ferariu
@@ -23,10 +25,16 @@ I primarily work in **R** and **Python**, with experience in tree-based models, 
 
 ## Education
 **Drexel University**  
-PhD, *[Program Name]*, 2022–Present  
+PhD, *Applied Cognitive and Brain Sciences*, 2022–Present  
 
-**[Previous University]**  
-*[Degree]* in *[Field]*, *[Years]*
+**Drexel University**  
+MS, *Psychology*, 2022-2024
+
+**Lehigh University**
+MS, *Statistics*, 2020-2022
+
+**Drexel University**
+BS, *Mathematics*, 2016-2020
 
 ---
 
