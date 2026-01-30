@@ -9,55 +9,67 @@ body {
   color: #e8e8e8;
 }
 
-/* ===== HEADER LAYOUT ===== */
-header {
+/* Cayman uses .page-header for the blue gradient header */
+.page-header {
   display: flex;
   align-items: center;
-  gap: 20px;
-  padding: 20px 30px;
+  gap: 22px;
+
+  /* keep Cayman padding, but nudge content right a bit */
+  padding-left: 40px;
+
+  /* optional: slightly reduce vertical padding if header feels tall */
+  /* padding-top: 1.8rem;
+  padding-bottom: 1.8rem; */
 }
 
 /* Profile photo in header */
-header::before {
+.page-header::before {
   content: "";
   background-image: url("/profile.jpg");
   background-size: cover;
   background-position: center;
-  width: 110px;
-  height: 110px;
+  width: 115px;
+  height: 115px;
   border-radius: 12px;
   flex-shrink: 0;
+
+  /* subtle border to look clean on gradient */
+  border: 1px solid rgba(255,255,255,0.18);
 }
 
-/* Header text */
-header h1 {
+/* Wrap header text nicely */
+.project-name,
+.project-tagline {
+  text-align: left;            /* Cayman defaults to centered */
+  margin: 0;                   /* remove extra margins */
+}
+
+/* Header title */
+.project-name {
   font-size: 2rem;
-  margin: 0;
-  color: white;
+  line-height: 1.1;
+  color: #ffffff;
 }
 
-header p {
-  margin: 6px 0 0 0;
+/* Header subtitle */
+.project-tagline {
+  margin-top: 6px;
   font-size: 1.05rem;
-  color: #e6e6e6;
+  color: rgba(255,255,255,0.92);
 }
 
-/* Remove default subtitle spacing weirdness */
-header p:last-child {
-  margin-bottom: 0;
-}
-
-/* ===== LINKS BELOW HEADER ===== */
+/* ===== LINKS BELOW HEADER (black background) ===== */
 .links {
   margin-top: 20px;
   margin-bottom: 10px;
   font-size: 0.95rem;
 }
 
-/* Page width */
-.page-content {
+/* Cayman uses .main-content for the page body container */
+.main-content {
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /* Links */
@@ -70,12 +82,13 @@ a:hover {
 
 /* Mobile */
 @media (max-width: 720px) {
-  header {
+  .page-header {
     flex-direction: column;
     align-items: flex-start;
+    padding-left: 24px;
   }
 
-  header::before {
+  .page-header::before {
     width: 90px;
     height: 90px;
   }
