@@ -68,7 +68,7 @@ body {
   height: 22px;
   opacity: 0.95;
   transition: opacity 0.15s ease;
-  filter: brightness(0) invert(1);
+  /* filter removed because SVGs are already white */
 }
 
 .icons a:hover img {
