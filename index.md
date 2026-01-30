@@ -4,18 +4,6 @@ title: Ana Ferariu
 
 
 ---
-<img src="profile.jpg" alt="Ana Ferariu" style="width:250px; float:left; border-radius:10px; margin-right:20px; margin-bottom:20px;">
-
-# Ana Ferariu
-
-PhD Researcher in Applied Cognitive and Brain Sciences
-*Advisor: Fengqing (Zoe) Zhang, PhD*
-
-📍 Philadelphia, PA  
-📧 af682@drexel.edu  
-🔗 [GitHub](https://github.com/anaferariu) · [LinkedIn](https://www.linkedin.com/in/ana-ferariu/) · [Google Scholar](https://scholar.google.com/citations?user=_qgON9sAAAAJ&hl=en) 
-
-<div style="clear: both;"></div>
 
 ## About Me
 I am a PhD student researcher at Drexel University working at the intersection of statistical methods and machine learning, with applications in clinical and developmental populations. I previously completed a MS in Statistics at Lehigh University and a BS in Mathematics at Drexel University. During my undergraduate studies, I was also a member of Drexel’s Division I women’s basketball team and represented Romania on the Olympic women’s basketball team.
