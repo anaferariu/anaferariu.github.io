@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Ana Ferariu
-<img src="profile.jpg" alt="Ana Ferariu" width="160" style="border-radius: 50%; margin-bottom: 20px;">
+
 
 ---
+<img src="profile.jpg" alt="Ana Ferariu" width="160" style="border-radius: 50%; margin-bottom: 20px;">
 
 # Ana Ferariu
 
