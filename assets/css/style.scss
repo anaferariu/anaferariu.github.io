@@ -23,46 +23,36 @@ body {
   padding-right: 28px;
 }
 
-
-/* ========================= NEW CENTERED HEADER ========================= */
-.page-header {
+/* Target the new container in index.md */
+.header-container {
   display: flex;
-  flex-direction: column;    /* Stacks photo, name, and tagline vertically */
-  align-items: center;       /* Centers items horizontally */
-  justify-content: center;   /* Centers the group vertically */
-  text-align: center;        /* Ensures text is balanced */
-  padding: 5rem 2rem;
+  flex-direction: column;   /* Stacks items vertically */
+  align-items: center;      /* Centers items horizontally */
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
 }
 
-/* Profiles photo styling */
-.page-header img {
-  margin-bottom: 20px;       /* Gap between photo and name */
-  width: 180px;
+.profile-pic {
+  width: 180px;             /* Your requested larger size */
   height: 180px;
-  border-radius: 50%;        /* Circular crop */
-  border: 2px solid rgba(255,255,255,0.2);
-  object-fit: cover;
+  border-radius: 50%;       /* Makes it a circle */
+  object-fit: cover;        /* Prevents stretching */
+  margin-bottom: 20px;      /* Space between photo and name */
+  border: 3px solid #fff;   /* Optional: adds a nice white border */
 }
 
-.project-name {
-  font-size: 2.5rem;
+.header-container h1 {
   margin: 0;
+  font-size: 2.5rem;
+  color: #ffffff;           /* Ensures name is visible on dark background */
+}
+
+.header-container h3 {
+  margin: 10px 0 0 0;
+  font-weight: 300;
+  opacity: 0.8;
   color: #ffffff;
-}
-
-.project-tagline {
-  font-size: 1.2rem;
-  margin-top: 10px;
-  color: rgba(255,255,255,0.9);
-}
-.project-tagline {
-  grid-column: 2;
-  grid-row: 2;
-
-  text-align: left;
-  margin: 6px 0 0 0;
-  font-size: 1.05rem;
-  color: rgba(255,255,255,0.92);
 }
 
 /* =========================
