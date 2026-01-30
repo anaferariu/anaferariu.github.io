@@ -12,33 +12,31 @@ body {
 }
 
 /* =========================
-   CAYMAN HEADER (FIXED)
+   CAYMAN HEADER (correct)
    ========================= */
 
-/* Keep Cayman’s full-width gradient */
+/* Use grid so photo sits left and text sits right, without breaking Cayman */
 .page-header {
-  text-align: left;
-}
-
-/* Cayman centers content inside an inner container.
-   THIS is what we flex — not .page-header itself */
-.page-header .container-lg,
-.page-header .container {
-  max-width: 900px;
-  margin: 0 auto;
-
-  display: flex;
+  display: grid;
+  grid-template-columns: 115px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 22px;
   align-items: center;
-  gap: 22px;
 
+  /* center the whole content block inside the full-width gradient */
+  justify-content: center;
+
+  /* balanced padding */
   padding-left: 28px;
   padding-right: 28px;
 }
 
-/* Profile photo INSIDE the centered container */
-.page-header .container-lg::before,
-.page-header .container::before {
+/* Profile photo */
+.page-header::before {
   content: "";
+  grid-column: 1;
+  grid-row: 1 / span 2;
+
   background-image: url("/profile.jpg");
   background-size: cover;
   background-position: center;
@@ -46,26 +44,27 @@ body {
   width: 115px;
   height: 115px;
   border-radius: 12px;
-  flex-shrink: 0;
-
   border: 1px solid rgba(255,255,255,0.18);
 }
 
 /* Header text */
-.project-name,
-.project-tagline {
+.project-name {
+  grid-column: 2;
+  grid-row: 1;
+
   text-align: left;
   margin: 0;
-}
-
-.project-name {
   font-size: 2rem;
   line-height: 1.1;
   color: #ffffff;
 }
 
 .project-tagline {
-  margin-top: 6px;
+  grid-column: 2;
+  grid-row: 2;
+
+  text-align: left;
+  margin: 6px 0 0 0;
   font-size: 1.05rem;
   color: rgba(255,255,255,0.92);
 }
@@ -92,7 +91,7 @@ body {
 }
 
 /* =========================
-   META LINKS (location, advisor)
+   META (location/advisor)
    ========================= */
 .links {
   margin-bottom: 18px;
@@ -119,22 +118,16 @@ a:hover {
    MOBILE
    ========================= */
 @media (max-width: 720px) {
-  .page-header .container-lg,
-  .page-header .container {
-    flex-direction: column;
-    align-items: flex-start;
+  .page-header {
+    grid-template-columns: 90px 1fr;
     padding-left: 20px;
     padding-right: 20px;
+    align-items: start;
   }
 
-  .page-header .container-lg::before,
-  .page-header .container::before {
+  .page-header::before {
     width: 90px;
     height: 90px;
-  }
-
-  .icons {
-    margin-top: 12px;
   }
 }
 
