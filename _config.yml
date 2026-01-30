@@ -1,11 +1,5 @@
 title: Ana Ferariu
-description: >
-  PhD Researcher in Applied Cognitive and Brain Sciences
-  <div class="icons">
-    <a href="mailto:af682@drexel.edu"><img src="/assets/icons/email.svg" alt="Email"></a>
-    <a href="https://github.com/anaferariu"><img src="/assets/icons/github.svg" alt="GitHub"></a>
-    <a href="https://www.linkedin.com/in/ana-ferariu/"><img src="/assets/icons/linkedin.svg" alt="LinkedIn"></a>
-    <a href="https://scholar.google.com/citations?user=_qgON9sAAAAJ&hl=en"><img src="/assets/icons/scholar.svg" alt="Google Scholar"></a>
-  </div>
+description: PhD Researcher in Applied Cognitive and Brain Sciences
 theme: jekyll-theme-cayman
 markdown: kramdown
+
