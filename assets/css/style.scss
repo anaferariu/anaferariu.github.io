@@ -101,24 +101,32 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
 /* ========================= DESKTOP HEADER ========================= */
 @media (min-width: 721px) {
   .page-header {
     display: grid;
-    grid-template-columns: 200px max-content; /* Gives the photo more room on desktop */
-    gap: 30px;                        /* Space between photo and text */
-    align-items: center;              /* Vertically centers text with photo */
-    padding: 3rem 0;
+    /* This creates a 2-column layout that is only as wide as its content */
+    grid-template-columns: auto auto; 
+    /* This physically moves the entire grid to the middle of the screen */
+    justify-content: center;          
+    gap: 10px;                        /* Generous space between photo and text */
+    align-items: center;
+    padding: 5rem 0;                  /* Vertical breathing room */
   }
 
   .page-header::before {
-    width: 180px;                     /* Larger photo for desktop */
-    height: 180px;
-    margin: 0 auto;                   /* Centers photo in its grid column */
+    content: "";                      /* Ensures the pseudo-element renders */
+    width: 200px;
+    height: 200px;
+    display: block;
+     margin: 0;
+    /* Your current CSS uses a pseudo-element for the image */
   }
 
   .project-name, .project-tagline, .icons {
-    text-align: left;                 /* Usually looks better aligned left on desktop */
+    text-align: left;                 /* Keep text clean and left-aligned */
+    margin: 0;                        /* Remove default theme offsets */
   }
 }
 
