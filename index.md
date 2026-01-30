@@ -21,7 +21,7 @@ title: Ana Ferariu
 
 
 ## About Me
-I am a PhD student researcher at Drexel University, under the supervision of Dr. Fengqing (Zoe) Zhang, working at the intersection of statistical methods and machine learning, with applications in clinical and developmental populations. I previously completed a MS in Statistics at Lehigh University and a BS in Mathematics at Drexel University. During my undergraduate studies, I was also a member of Drexel’s Division I women’s basketball team and represented Romania on the Olympic women’s basketball team.
+I am a PhD student researcher at Drexel University, under the supervision of Dr. Fengqing (Zoe) Zhang, working at the intersection of statistical methods and machine learning, with applications in clinical and developmental populations. I previously completed a MS in Statistics at Lehigh University and a BS in Mathematics at Drexel University. During my undergraduate studies, I was also a member of Drexel’s D1 women’s basketball team and represented Romania on the Olympic women’s basketball team.
 
 My research interests center on longitudinal modeling, latent class analysis, and predictive modeling, with a particular focus on using machine learning and deep learning approaches to characterize substance use trajectories across adolescent neurodevelopment. I have also worked on projects applying subgroup identification methods in randomized controlled trials of behavioral weight-loss interventions.
 
