@@ -110,7 +110,7 @@ a:hover {
 @media (min-width: 721px) {
   .header-container {
     display: grid;
-    grid-template-columns: 200px 1fr; /* 200px for image, rest for text */
+    grid-template-columns: 1fr 200px; /* 200px for image, rest for text */
     gap: 30px;
     align-items: center;
     max-width: 900px;
@@ -119,7 +119,7 @@ a:hover {
   }
 
   .project-name, .project-tagline, .icons {
-    text-align: left;
+    text-align: right;
     margin: 0;
   }
 }
