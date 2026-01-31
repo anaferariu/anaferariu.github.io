@@ -39,11 +39,15 @@ body {
   align-items: center; /* Centers content horizontally */
   margin-top: 50px;
 }
+
+/* Ensure the image stays circular */
 .profile-pic {
   border-radius: 50%;
-  width: 180px;   /* Adjust to your liking */
-  margin-bottom: 20px;
+  width: 100%; /* Scales to the 200px grid column */
+  height: auto;
+  border: 3px solid #ffffff;
 }
+
 .header-container h1 {
   margin: 0;
   font-size: 2.5rem;
@@ -104,32 +108,21 @@ a:hover {
 
 /* ========================= DESKTOP HEADER ========================= */
 @media (min-width: 721px) {
-  .page-header {
+  .header-container {
     display: grid;
-    /* This creates a 2-column layout that is only as wide as its content */
-    grid-template-columns: auto auto; 
-    /* This physically moves the entire grid to the middle of the screen */
-    justify-content: center;          
-    gap: 10px;                        /* Generous space between photo and text */
+    grid-template-columns: 200px 1fr; /* 200px for image, rest for text */
+    gap: 30px;
     align-items: center;
-    padding: 5rem 0;                  /* Vertical breathing room */
-  }
-
-  .page-header::before {
-    content: "";                      /* Ensures the pseudo-element renders */
-    width: 200px;
-    height: 200px;
-    display: block;
-     margin: 0;
-    /* Your current CSS uses a pseudo-element for the image */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
   }
 
   .project-name, .project-tagline, .icons {
-    text-align: left;                 /* Keep text clean and left-aligned */
-    margin: 0;                        /* Remove default theme offsets */
+    text-align: left;
+    margin: 0;
   }
 }
-
 /* =========================
    MOBILE
    ========================= */
