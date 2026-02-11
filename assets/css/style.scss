@@ -50,11 +50,13 @@ a:hover { text-decoration: underline; }
   margin-right: 0;
 }
 
+.project-name { font-weight: 700; }
+.project-tagline { font-weight: 400; }
 .project-tagline {
   margin-top: 10px;   /* adjust spacing between name and title */
 }
 
-/* ===== Icons row: LEFT aligned (you asked for this) ===== */
+/* ===== Icons row: LEFT aligned ===== */
 .icons {
   margin: 18px 0 8px 0;
   display: flex;
