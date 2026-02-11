@@ -43,8 +43,8 @@ In the industry setting, I have experience transforming unstructured clinical te
 * **Drexel University**, BS in *Mathematics*, 2016–2020
 
 ## Awards
-* Exceptional Achievement Award for Graduate Students in PhD Program - American Statistical Association, Philadelphia Chapter (2026).
-* Team Spirit and Leadership Award - Drexel University D1 Women’s Basketball Team (2019)
+**Exceptional Achievement Award for Graduate Students in PhD Program - American Statistical Association, Philadelphia Chapter (2026)
+**Team Spirit and Leadership Award - Drexel University D1 Women’s Basketball Team (2019)
 
 ## Work Experience
 
@@ -59,7 +59,14 @@ At Proscia, I contributed to the development of applied machine learning and nat
 At the Division of Biostatistics and Bioinformatics at Thomas Jefferson University, I worked on the analysis of high-dimensional imaging data to identify prognostic biomarkers for lung cancer. My work involved comparing machine learning approaches with classical statistical methods for survival analysis, including the use of functional regression to model complex imaging-derived features. I also participated in protocol review meetings for oncologic clinical trials, which provided exposure to the design, oversight, and regulatory considerations involved in translational cancer research.
 
 ## Projects
-### 
+### Predicting Early Alcohol Use with Explainable AI
+[View publication (PubMed)][(https://pubmed.ncbi.nlm.nih.gov/40684513/)]
+
+Most studies of early alcohol exposure examine isolated risk factors or cross-sectional outcomes. In this project, I applied machine learning models to integrate multilevel (individual, family, environmental) variables with multimodal neuroimaging features to prospectively predict distinct early alcohol sipping trajectories.
+
+Using data from the Adolescent Brain Cognitive Development (ABCD) Study, I combined structural MRI, functional connectivity measures, and contextual risk factors to distinguish youth with increasing alcohol use patterns from those who reduced or avoided experimentation over time. Explainable AI methods were used to identify key predictive features and interaction effects, highlighting how neurobiological, socioeconomic, and attitudinal factors jointly shape developmental risk trajectories.
+
+This work demonstrates how integrating multilevel and multimodal data can improve early identification of divergent alcohol use pathways.
 
 ### Early Drinking and Brain Development in Children  
 [View publication (PubMed)](https://pubmed.ncbi.nlm.nih.gov/38890123/)
