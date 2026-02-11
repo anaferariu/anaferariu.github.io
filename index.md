@@ -58,6 +58,26 @@ At Proscia, I contributed to the development of applied machine learning and nat
 
 At the Division of Biostatistics and Bioinformatics at Thomas Jefferson University, I worked on the analysis of high-dimensional imaging data to identify prognostic biomarkers for lung cancer. My work involved comparing machine learning approaches with classical statistical methods for survival analysis, including the use of functional regression to model complex imaging-derived features. I also participated in protocol review meetings for oncologic clinical trials, which provided exposure to the design, oversight, and regulatory considerations involved in translational cancer research.
 
+## Projects
+### 
+
+### Early Drinking and Brain Development in Children  
+[View publication (PubMed)](https://pubmed.ncbi.nlm.nih.gov/38890123/)
+
+Although adolescent alcohol use has been widely studied, less is known about how early alcohol sipping beginning in late childhood relates to changes in personality and mental health over time. In this project, I examined whether early sipping patterns were associated with longitudinal trajectories of depression symptoms and personality traits, and whether dorsal anterior cingulate cortex (dACC) activation moderated these relationships.
+
+Using data from the Adolescent Brain Cognitive Development (ABCD) Study (N = 11,686), I identified latent alcohol sipping groups and evaluated their developmental associations with psychopathology and personality measures. Bilateral dACC activation during a response inhibition task moderated the relationship between early sipping and later psychological outcomes.
+
+These findings highlight the role of early behavioral exposure and neurocognitive control processes in shaping adolescent developmental trajectories.
+
+### What Works for Whom? — Subgroup Identification in a Behavioral Weight Loss RCT
+
+Behavioral weight loss (BWL) interventions reliably produce average weight loss, but treatment response varies substantially across individuals. In this project, I examined whether specific mindfulness- and acceptance-based treatment (MABT) components (Awareness, Willingness, and Values) were differentially effective depending on participant characteristics, even when overall main effects were nonsignificant.
+
+In particular, I applied qualitative interaction trees (QUINT) to identify subgroups for whom particular treatment components led to greater post-treatment weight loss. 
+
+Findings suggest that different MABT components may be more effective for individuals with distinct cognitive and behavioral profiles, highlighting meaningful heterogeneity in treatment response. These results illustrate how data-driven subgroup identification methods can inform the personalization of behavioral interventions.
+
 ## Publications
 
 ### Peer-Reviewed Journal Articles
