@@ -12,63 +12,54 @@ body {
 }
 
 /* =========================
-   CAYMAN HEADER (correct)
+   CUSTOM HEADER CONTAINER (from index.md)
    ========================= */
-
-  /* center the whole content block inside the full-width gradient */
-  justify-content: center;
-
-  /* balanced padding */
-  padding-left: 28px;
-  padding-right: 28px;
-}
-
-/* Target the new container in index.md */
 .header-container {
   display: flex;
-  flex-direction: column;   /* Keeps items stacked vertically */
-  align-items: center;    /* Moves items to the center */
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  text-align: center;        /* Right-aligns the name and title text */
+  text-align: center;
   padding: 40px 0;
 }
 
 .profile {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Centers content horizontally */
+  align-items: center;
   margin-top: 50px;
 }
 
-/* Ensure the image stays circular */
 .profile-pic {
   border-radius: 50%;
-  width: 100%; /* Scales to the 200px grid column */
-  height: auto;
+  width: 200px;     /* keeps a stable size */
+  height: 200px;
+  object-fit: cover;
   border: 3px solid #ffffff;
 }
 
 .header-container h1 {
   margin: 0;
   font-size: 2.5rem;
-  color: #ffffff;           /* Ensures name is visible on dark background */
+  color: #ffffff;
 }
 
 .header-container h3 {
   margin: 5px 0 0 0;
   font-weight: 300;
-  opacity: 0.8;
+  opacity: 0.85;
   color: #ffffff;
 }
 
 /* =========================
-   ICON LINKS (below header)
+   ICON LINKS
    ========================= */
 .icons {
   margin: 18px 0 8px 0;
   display: flex;
   gap: 14px;
   align-items: center;
+  justify-content: center; /* ensures centered under header on mobile */
 }
 
 .icons img {
@@ -88,6 +79,7 @@ body {
 .links {
   margin-bottom: 18px;
   font-size: 0.95rem;
+  text-align: center;
 }
 
 /* =========================
@@ -106,43 +98,63 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ========================= DESKTOP HEADER ========================= */
+/* =========================
+   DESKTOP HEADER LAYOUT
+   ========================= */
 @media (min-width: 721px) {
   .header-container {
     display: grid;
-    grid-template-columns: 1fr 200px; /* 200px for image, rest for text */
+    grid-template-columns: 1fr 200px; /* text | image */
     gap: 30px;
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 0;
+    text-align: right;
   }
 
-  .project-name, .project-tagline, .icons {
+  /* Put the image on the right on desktop */
+  .profile {
+    margin-top: 0;
+    justify-self: end;
+  }
+
+  .header-container h1,
+  .header-container h3 {
     text-align: right;
-    margin: 0;
+  }
+
+  .icons {
+    justify-content: flex-end;
+  }
+
+  .links {
+    text-align: right;
   }
 }
+
 /* =========================
    MOBILE
    ========================= */
 @media (max-width: 720px) {
-  .page-header {
-    grid-template-columns: 90px 1fr;
-    padding-left: 20px;
-    padding-right: 20px;
-    align-items: start;
+  .header-container {
+    text-align: center;
   }
 
-  .page-header::before {
-    width: 90px;
-    height: 90px;
-     margin: 0 auto;
+  .profile {
+    margin-top: 20px;
   }
-.project-name, .project-tagline, .icons {
-  text-align: center; /* Centers the text and icons next to the photo */
+
+  .icons {
+    justify-content: center;
+  }
+
+  .links {
+    text-align: center;
+  }
 }
 
-}
+
+
 
 
