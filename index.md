@@ -42,6 +42,10 @@ In the industry setting, I have experience transforming unstructured clinical te
 * **Lehigh University**, MS in *Statistics*, 2020–2022  
 * **Drexel University**, BS in *Mathematics*, 2016–2020
 
+## Awards
+* Exceptional Achievement Award for Graduate Students in PhD Program - American Statistical Association, Philadelphia Chapter (2026).
+* Team Spirit and Leadership Award - Drexel University D1 Women’s Basketball Team (2019)
+
 ## Work Experience
 
 ### Proscia, Inc. — AI and Data Science Intern
