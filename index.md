@@ -3,8 +3,6 @@ layout: default
 title: Ana Ferariu
 
 ---
-
-
 <div class="icons">
   <a href="mailto:af682@drexel.edu" aria-label="Email">
     <img src="/assets/icons/email.svg" alt="Email">
@@ -39,8 +37,8 @@ In the industry setting, I have experience transforming unstructured clinical te
 * **Drexel University**, BS in *Mathematics*, 2016–2020
 
 ## Awards
-**Exceptional Achievement Award for Graduate Students in PhD Program - American Statistical Association, Philadelphia Chapter (2026)
-**Team Spirit and Leadership Award - Drexel University D1 Women’s Basketball Team (2019)
+**Exceptional Achievement Award for Graduate Students in PhD Program**, American Statistical Association, Philadelphia Chapter (2026)
+**Team Spirit and Leadership Award**, Drexel University D1 Women’s Basketball Team (2019)
 
 ## Work Experience
 
@@ -56,7 +54,7 @@ At the Division of Biostatistics and Bioinformatics at Thomas Jefferson Universi
 
 ## Projects
 ### Predicting Early Alcohol Use with Explainable AI
-[View publication (PubMed)][(https://pubmed.ncbi.nlm.nih.gov/40684513/)]
+[View publication (PubMed)](https://pubmed.ncbi.nlm.nih.gov/40684513/)
 
 Most studies of early alcohol exposure examine isolated risk factors or cross-sectional outcomes. In this project, I applied machine learning models to integrate multilevel (individual, family, environmental) variables with multimodal neuroimaging features to prospectively predict distinct early alcohol sipping trajectories.
 
