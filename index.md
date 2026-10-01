@@ -43,9 +43,15 @@ In the industry setting, I have experience transforming unstructured clinical te
 ## Work Experience
 
 ### Proscia, Inc. — AI and Data Science Intern
-*Summer 2025 | Supervisors: Corey Chivers, PhD & Ajay Basavanhally, PhD*
+*Summer 2025 & Summer 2026 | Supervisors: Julianna Ianni, PhD, Corey Chivers, PhD & Ajay Basavanhally, PhD*
 
-At Proscia, I contributed to the development of applied machine learning and natural language processing methods for transforming unstructured pathology and clinical text into structured, queryable patient-level data within a production healthcare analytics platform [Proscia's Aperture](https://proscia.com/aperture/). Beyond model development, I played a role in shaping core modeling decisions by identifying gaps in existing product workflows, reframing them as concrete research problems, and designing statistically principled solutions that were adopted in practice. My work emphasized the full pipeline from idea to deployment, including building reproducible prototypes, validating model behavior, documenting failure modes, and collaborating closely with engineers to operationalize methods under real-world constraints. These contributions continue to support scalable analytics pipelines that extract clinically meaningful insights from large collections of medical records on a daily basis.
+Across two summer internships at Proscia, I worked on applied AI and data science projects spanning clinical NLP, agentic AI systems, and production software infrastructure.
+
+In 2025, my work focused on developing machine learning and natural language processing methods for transforming unstructured pathology and clinical text into structured, queryable patient-level data. I developed LLM-powered pipelines for clinical information extraction, HIPAA-compliant de-identification, and synthetic data generation, with an emphasis on building and validating methods that could operate within real-world healthcare analytics workflows.
+
+In 2026, my work expanded into agentic AI infrastructure. I contributed to the development and productionization of an agent runtime platform, including durable session and state persistence across distributed cloud systems, long-term agent memory using semantic search and user-preference strategies, and improvements to search and cross-tool integrations. I also developed end-to-end functional tests and worked on resolving data ingestion, access-control, and connectivity challenges across analysis workflows.
+
+Across both internships, I worked closely with data scientists and software engineers to translate research and product problems into production-oriented AI solutions, from early prototyping and technical design through validation, testing, and deployment.
 
 ### Division of Biostatistics and Bioinformatics — Jefferson University
 *June 2024 – August 2024 | Supervisor: Inna Chervoneva, PhD*
@@ -71,6 +77,13 @@ Using data from the Adolescent Brain Cognitive Development (ABCD) Study (N = 11,
 
 These findings highlight the role of early behavioral exposure and neurocognitive control processes in shaping adolescent developmental trajectories.
 
+### Modeling Adolescent Substance Use Trajectories
+Adolescent substance use develops along diverse pathways, yet less is known about how changes in brain structure, behavior, and social context relate to different patterns of initiation and escalation over time. In this project, I examined substance use trajectories from late childhood through mid-adolescence using longitudinal data from the Adolescent Brain Cognitive Development (ABCD) Study.
+
+I used latent class mixed models to identify distinct trajectories based on the number of substance types used over time, followed by machine learning and deep learning models to determine whether longitudinal neuroanatomical and individual-, family-, and community-level features could differentiate these patterns. I compared sequence-based neural networks with gradient-boosted models using engineered temporal features and applied explainable AI methods to identify the features contributing to classification.
+
+Four distinct trajectories emerged, differing in both the timing of substance use onset and subsequent escalation. Social and behavioral factors, particularly peer substance use, were important differentiators, while longitudinal neuroanatomical features contributed more to distinctions among specific substance use trajectories. This work demonstrates how longitudinal statistical modeling and machine learning can be combined to characterize heterogeneity in substance use across adolescent development.
+
 ### What Works for Whom? — Subgroup Identification in a Behavioral Weight Loss RCT
 
 Behavioral weight loss (BWL) interventions reliably produce average weight loss, but treatment response varies substantially across individuals. In this project, I examined whether specific mindfulness- and acceptance-based treatment (MABT) components (Awareness, Willingness, and Values) were differentially effective depending on participant characteristics, even when overall main effects were nonsignificant.
@@ -87,17 +100,17 @@ Findings suggest that different MABT components may be more effective for indivi
 * Taylor, A., Sahl, A., Chang, H., **Ferariu, A.**, Wang, L., Jiang, W., McMillan, C. T., Shardell, M. D., & Zhang, F. Z. (2025). [Basic Science and Pathogenesis](https://doi.org/10.1002/alz70855-103465). *Alzheimer’s & Dementia*, 21. (IF: 11.1)
 
 ### Under Review & In Preparation
+* **Ferariu, A.**, Chang, H., Sadeghi, F., Sahl, A. & Zhang, F. (2026+). Longitudinal Changes in Brain Structure and Multilevel, Multidomain Factors Differentiate Trajectories of Substance Use During Adolescence. *Addiction* (IF:5.9), under review.
+* **Ferariu, A.**, Forman, E., Hagerman, C., Butryn, M. L., Choo-Kang, D., Chang, H., Sadeghi, F., Sahl, A. & Zhang, F. (2026+). Personalizing Behavioral Weight Loss: Identifying Subgroups Responsive to Mindfulness- and Acceptance-Based Treatment (MABT) Components. *Applied Psychology: Health and Well-Being* (IF 3.3), under review.
 * Chang, H., Widjaja, R., Yang, A., **Ferariu, A.**, Taylor, A., Kounios, J., Friedman, E., McMillan, C. & Zhang, F. (2026+). Impact of Brain and Biological Development Indices on Childhood Physical, Mental, and Academic Outcomes. *Journal of Child Psychology and Psychiatry* (IF: 6.1), submitted.
 * Chang, H., Street, K., **Ferariu, A.**, Taylor, A., Kounios, J., Friedman, E., McMillan, C. & Zhang, F. (2026+). Individualized Pace of Biological Aging as a Health Biomarker in Youth with Perinatally-Acquired HIV. *Journal of the American Academy of Child and Adolescent Psychiatry* (IF: 9.5), submitted.
-* **Ferariu, A.**, Chang, H., Sadeghi, F., Sahl, A. & Zhang, F. (2026+). Do changes in brain structure and behavior over time predict the increase of substance use during adolescence? *In prep*.
-* **Ferariu, A.**, Forman, E., Hagerman, C., Butryn, M. L., Choo-Kang, D., Chang, H., Sadeghi, F., Sahl, A. & Zhang, F. (2026+). Personalizing Behavioral Weight Loss: Identifying Subgroups Responsive to Mindfulness- and Acceptance-Based Treatment (MABT) Components. *In prep*.
 
 
 ## Teaching Experience
 
 ### Drexel University — Department of Psychology
 *Graduate Teaching Assistant | September 2022 – Present*
-* Courses: Statistical Methods in Psychology, Abnormal Psychology, Experimental Psychology, General Psychology, Developmental Psychology
+* Courses: Statistical Methods in Psychology, Abnormal Psychology, Experimental Psychology, General Psychology, Developmental Psychology, Approaches to Personality
 
 ### Lehigh University — Department of Mathematics
 *Graduate Teaching Assistant | January 2022 – May 2022*
