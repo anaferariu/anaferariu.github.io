@@ -59,6 +59,15 @@ Across both internships, I worked closely with data scientists and software engi
 At the Division of Biostatistics and Bioinformatics at Thomas Jefferson University, I worked on the analysis of high-dimensional imaging data to identify prognostic biomarkers for lung cancer. My work involved comparing machine learning approaches with classical statistical methods for survival analysis, including the use of functional regression to model complex imaging-derived features. I also participated in protocol review meetings for oncologic clinical trials, which provided exposure to the design, oversight, and regulatory considerations involved in translational cancer research.
 
 ## Projects
+### Brain Age Calculator — Comparing Open-Source Brain Age Models
+[View code (GitHub)](https://github.com/anaferariu/BrainAgeCalculator)
+
+Brain age, the age a model predicts from a brain MRI, and the brain age gap, its difference from chronological age, are widely used as markers of brain health. However, published models differ in their training data, age range and preprocessing, and many were trained only on middle-aged and older adults. In this project, I built a reproducible pipeline that estimates brain age from a single T1-weighted MRI scan with four open-source pretrained models whose training data include young adults: two pyment deep learning models (SFCN), brainageR (Gaussian process regression on tissue maps), and BrainAgeNeXt (MedNeXt).
+
+Each model runs with its authors' own preprocessing (FastSurfer; SPM12 segmentation with DARTEL normalization; and SynthStrip with ANTs registration) inside Docker containers, so the full pipeline can be set up on a laptop with a single script. Preprocessing is cached per scan, outputs include quality-control images for each pipeline, and the report gives each model's brain age gap alongside their average.
+
+Running several models on the same scan shows how much brain age estimates can disagree at the individual level, and how sensitive they are to preprocessing choices, which is important when interpreting a single person's brain age gap.
+
 ### Predicting Early Alcohol Use with Explainable AI
 [View publication (PubMed)](https://pubmed.ncbi.nlm.nih.gov/40684513/)
 
@@ -91,15 +100,6 @@ Behavioral weight loss (BWL) interventions reliably produce average weight loss,
 In particular, I applied qualitative interaction trees (QUINT) to identify subgroups for whom particular treatment components led to greater post-treatment weight loss. 
 
 Findings suggest that different MABT components may be more effective for individuals with distinct cognitive and behavioral profiles, highlighting meaningful heterogeneity in treatment response. These results illustrate how data-driven subgroup identification methods can inform the personalization of behavioral interventions.
-
-### Brain Age Calculator — Comparing Open-Source Brain Age Models
-[View code (GitHub)](https://github.com/anaferariu/BrainAgeCalculator)
-
-Brain age, the age a model predicts from a brain MRI, and the brain age gap, its difference from chronological age, are widely used as markers of brain health. However, published models differ in their training data, age range and preprocessing, and many were trained only on middle-aged and older adults. In this project, I built a reproducible pipeline that estimates brain age from a single T1-weighted MRI scan with four open-source pretrained models whose training data include young adults: two pyment deep learning models (SFCN), brainageR (Gaussian process regression on tissue maps), and BrainAgeNeXt (MedNeXt).
-
-Each model runs with its authors' own preprocessing (FastSurfer; SPM12 segmentation with DARTEL normalization; and SynthStrip with ANTs registration) inside Docker containers, so the full pipeline can be set up on a laptop with a single script. Preprocessing is cached per scan, outputs include quality-control images for each pipeline, and the report gives each model's brain age gap alongside their average.
-
-Running several models on the same scan shows how much brain age estimates can disagree at the individual level, and how sensitive they are to preprocessing choices, which is important when interpreting a single person's brain age gap.
 
 ## Publications
 
