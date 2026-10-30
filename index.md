@@ -68,6 +68,16 @@ Each model runs with its authors' own preprocessing (FastSurfer; SPM12 segmentat
 
 Running several models on the same scan shows how much brain age estimates can disagree at the individual level, and how sensitive they are to preprocessing choices, which is important when interpreting a single person's brain age gap.
 
+### MySportsAgent — Natural-Language Basketball Scouting
+[View code (GitHub)](https://github.com/anaferariu/MySportsAgent) · [Try the live demo](https://mysportsagent.onrender.com/)  
+*The demo runs on a free hosting tier that sleeps when idle, so the first load can take up to a minute.*
+
+Scouts usually describe the players they are looking for in plain language, such as "a guard who scores 20 points a game and shoots well from three", while player data lives in stat tables that have to be filtered by hand. In this project, I built a web app that turns these descriptions into searches over a player database. The demo holds season per-game statistics for 91 players on five teams: three NBA teams from the 2024–25 season (Oklahoma City Thunder, Indiana Pacers, Boston Celtics) and two WNBA teams from the 2025 season (Las Vegas Aces, Phoenix Mercury).
+
+The default search engine is a rule-based parser that uses regular expressions to translate a request into structured filters, including position, league, team, per-game thresholds, shooting percentages and rankings such as "top 3 scorers", and then ranks the matching players. Each message refines the same search, so results can be narrowed step by step, and every answer lists the filters applied and any players left out because of missing data. An optional agent built on Anthropic's Claude API maps the same requests onto these filters through tool calls, so both engines share one deterministic filtering and ranking engine. Users can also add players and upload game box scores, which are folded into each player's season averages.
+
+The app is built with Node.js, Express and SQLite, is covered by an automated test suite, and is deployed on Render, where the database is rebuilt from versioned seed files on every start.
+
 ### Predicting Early Alcohol Use with Explainable AI
 [View publication (PubMed)](https://pubmed.ncbi.nlm.nih.gov/40684513/)
 
