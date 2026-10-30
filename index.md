@@ -86,7 +86,7 @@ Using data from the Adolescent Brain Cognitive Development (ABCD) Study (N = 11,
 
 These findings highlight the role of early behavioral exposure and neurocognitive control processes in shaping adolescent developmental trajectories.
 
-### Modeling Adolescent Substance Use Trajectories
+### Tracking Adolescent Substance Use Trajectories with Longitudinal Brain Data and Machine Learning
 Adolescent substance use develops along diverse pathways, yet less is known about how changes in brain structure, behavior, and social context relate to different patterns of initiation and escalation over time. In this project, I examined substance use trajectories from late childhood through mid-adolescence using longitudinal data from the Adolescent Brain Cognitive Development (ABCD) Study.
 
 I used latent class mixed models to identify distinct trajectories based on the number of substance types used over time, followed by machine learning and deep learning models to determine whether longitudinal neuroanatomical and individual-, family-, and community-level features could differentiate these patterns. I compared sequence-based neural networks with gradient-boosted models using engineered temporal features and applied explainable AI methods to identify the features contributing to classification.
